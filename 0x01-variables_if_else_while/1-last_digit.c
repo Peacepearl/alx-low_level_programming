@@ -4,8 +4,7 @@
 
 /* positive anything is better than negative nothing */
 /**
- * main - prints the last digit of the random
- * number stored in the variable n
+ * main - entry point for program
  * Return: Always 0 (Success)
  */
 int main(void)
