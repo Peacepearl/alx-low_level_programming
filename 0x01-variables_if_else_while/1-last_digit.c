@@ -4,7 +4,7 @@
 
 /* positive anything is better than negative nothing */
 /**
- * main - entry point for program
+ * main- entry point for program
  * Return: Always 0 (Success)
  */
 int main(void)
