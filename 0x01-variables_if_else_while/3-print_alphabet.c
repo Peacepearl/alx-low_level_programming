@@ -1,22 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints alphabet in lower and upper case
- * Return: 0 (success)
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-<<<<<<< HEAD
-        char ch;
-
-  foCXXCr (ch = 'a'; ch <= 'z'; ch++)
-    putchar(ch);
-  for (ch = 'A'; ch <= 'Z'; ch++)
-    putchar(ch);
-  putchar('\n');
-  return (0);
-=======
-	char ch;
+	int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
@@ -24,5 +15,4 @@ int main(void)
 		putchar(ch);
 	putchar('\n');
 	return (0);
->>>>>>> c474bfaeb52d3c209c6b8ceea579a475c96d0a04
 }
