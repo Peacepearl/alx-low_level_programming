@@ -1,23 +1,20 @@
-#include <stdio.h>
+#tdio.h>
 
 /**
  * main - Entry point
- * program that prints all the numbers of base 16 in lowercase
+ * a program that prints all possible combinations of single-digit numbers
  * Return: 0 (success)
  */
 int main(void)
-{
-int n = '0';
-int a_to_f = 'a';
+{int i = '0';
 
-while (n <= '9')
-{putchar(n);
-n++;
+while (i <= '9')
+{putchar(i);
+if (i != '9')
+{putchar(',');
+putchar(' ');
 }
-
-while (a_to_f <= 'f')
-{putchar(a_to_f);
-a_to_f++;
+i++;
 }
 putchar('\n');
 return (0);
